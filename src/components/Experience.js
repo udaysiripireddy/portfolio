@@ -7,15 +7,19 @@ const experiences = [
     company: "Numetry Technologies",
     duration: "July 2024 - October 2024 (4 months)",
     description: `
-      Building<strong> authentication and authorization </strong>for web-based applications.
-      Frontend Development: Experience in building responsive and interactive user interfaces using<strong> React, React Router, and Redux </strong>for state management.
-      Backend Development: Strong understanding of<strong> RESTful API design using Express.js and Node.js </strong>to handle server-side logic and routing.
-      Database Management: Proficient in <strong> MongoDB </strong> for handling database operations, including <strong>data modeling, indexing, and schema design</strong>.
-      Authentication & Authorization: Implementing secure authentication with <strong>JWT, OAuth, and Firebase</strong>.
-      Version Control: Expertise in<strong> Git and GitHub </strong>for source code management and collaboration on development projects.
-      Testing & Debugging: Experience in <strong>unit testing, integration testing,</strong> and debugging using tools like <strong>Jest and Postman</strong>.
-      Responsive Design: Strong knowledge of CSS frameworks like <strong> Bootstrap and Tailwind CSS </strong>for building mobile-first, responsive layouts.
-      Deployment & Hosting: Deploying web applications on cloud platforms like <strong>Vercel, AWS, and Netlify,</strong> along with CI/CD pipelines.
+      <strong>Numetry Technologies - Pune | Frontend Developer</strong>
+       July 2024 - Oct 2024
+<strong>Frontend Development:</strong> Designed and developed responsive, <strong>interactive user interfaces using React, React Router, and Redux for state management.</strong>
+<Strong>Authentication & Authorization:</strong> Built secure login systems and implemented role-based access control (RBAC) <strong>using JWT and OAuth.</strong>
+<strong>API Integration:</strong> Integrated third-party services such as<strong> payment gateways, social logins, </strong>and cloud storage to enhance functionality.
+<strong>Projects:</strong>
+<strong>Weather Monitoring Application:</strong> Created a weather app with real-time updates, 7-day forecasts, and interactive charts using OpenWeatherMap API.
+<strong>E-commerce Platform:</strong> Developed a responsive e-commerce site with Stripe payments, shopping cart functionality, and SEO optimization using Next.js.
+<strong>Rule Engine for Loan Applications:</strong> Built a dynamic rule engine for evaluating loan eligibility with a user-friendly interface and real-time previews.
+<strong>Employee Management System: </strong>Implemented a dashboard for CRUD operations with Material-UI, filtering, sorting, and MongoDB integration.
+<strong>Responsive Design:</strong> Crafted mobile-first layouts using Bootstrap and Tailwind CSS.
+<strong>Testing & Debugging:</strong> Enhanced application reliability with unit testing using Jest and API testing via Postman.
+<strong>Deployment & Hosting:</strong> Deployed applications on<strong> Vercel, AWS, and Netlify,</strong> utilizing CI/CD pipelines for smooth integration.
     `,
   },
 ];

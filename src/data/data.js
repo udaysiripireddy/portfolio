@@ -2,8 +2,8 @@
 
 export const personalInfo = {
     name: "Uday Kumar Siripireddy",
-    title: "Full Stack Developer",
-    description: "As a MERN stack developer with 4 months of hands-on experience in software development, I specialize in creating responsive, dynamic web applications using MongoDB, Express.js, React.js, and Node.js. My journey in software development has been driven by a strong passion for coding, problem-solving, and continuous learning.",
+    title: "Frontend Developer",
+    description: "As a Frontend developer with 4 months of hands-on intern experience in software development, I specialize in creating responsive, dynamic web applications using HTML, CSS, Javascript, React.js. My journey in software development has been driven by a strong passion for coding, problem-solving, and continuous learning.",
     
   };
   
@@ -12,9 +12,6 @@ export const personalInfo = {
     { name: "CSS", icon: "💻" },
     { name: "JavaScript", icon: "💻" },
     { name: "React.js", icon: "⚛️" },
-    { name: "Node.js", icon: "🌐" },
-    { name: "MongoDB", icon: "🗄️" },
-    { name: "Express", icon: "🧑‍💻" },
     { name: "Python", icon: "🐍" },
     { name: "C/C++", icon: "🔧" },
     { name: "SQL", icon: "📊" },
@@ -41,25 +38,11 @@ export const personalInfo = {
       description: "A platform to manage patients records and data, with chart.js.",
       demoLink: "https://tech-care-iota.vercel.app/",
       codeLink: "https://github.com/udaysiripireddy/Tech-care",
-    },
-    {
-      title: "Employee Management System",
-      description: "A platform of employee records and data.",
-      demoLink: "https://github.com/udaysiripireddy/DealsForIntern",
-      codeLink: "https://github.com/udaysiripireddy/DealsForIntern",
-    },
-    {
-      title: "Car Management System",
-      description: "A platform to manage car records and data, with authentication and authorization",
-      demoLink: "https://github.com/udaysiripireddy/carmanagementsystem",
-      codeLink: "https://github.com/udaysiripireddy/carmanagementsystem",
-    },
-    {
-      title: "Rule Engine",
-      description: "A platform for cadidate is eligible for loans or discounts.",
-      demoLink: "https://github.com/udaysiripireddy/Rule-Engine",
-      codeLink: "https://github.com/udaysiripireddy/Rule-Engine",
-    },
+    }
+     
+    
+    
+    
   ];
   
   
