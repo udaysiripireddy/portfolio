@@ -7,8 +7,8 @@ const experiences = [
     company: "Numetry Technologies",
     duration: "July 2024 - October 2024 (4 months)",
     description: `
-      <strong>Numetry Technologies - Pune | Frontend Developer</strong>
-       July 2024 - Oct 2024
+      
+      
 <strong>Frontend Development:</strong> Designed and developed responsive, <strong>interactive user interfaces using React, React Router, and Redux for state management.</strong>
 <Strong>Authentication & Authorization:</strong> Built secure login systems and implemented role-based access control (RBAC) <strong>using JWT and OAuth.</strong>
 <strong>API Integration:</strong> Integrated third-party services such as<strong> payment gateways, social logins, </strong>and cloud storage to enhance functionality.
