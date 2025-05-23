@@ -43,7 +43,6 @@ const Contact = () => {
   return (
     <section className="contact">
       <h2>Contact Me</h2>
-      <p><i>implement using emailJS</i></p>
       <form onSubmit={handleSubmit} className="contact-form">
         <input
           type="text"

@@ -1,75 +1,117 @@
 /* General Styling */
 .about {
-    padding: 50px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-    color: #333333;
-    font-family: Arial, sans-serif;
-  }
-  
+  padding: 40px 16px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+@media (min-width: 480px) {
   .about h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
-    color: #4CAF50;
   }
-  
-  /* Profile Picture Styling */
+}
+
+@media (min-width: 1024px) {
+  .about {
+    padding: 60px 40px;
+  }
+
+  .about h2 {
+    font-size: 2.4rem;
+  }
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #4CAF50;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
   .profile-pic {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    border: 3px solid #4CAF50;
-    margin-bottom: 20px;
-    transition: transform 0.3s;
+    margin-bottom: 0;
   }
-  
-  .profile-pic:hover {
-    transform: scale(1.1);
+}
+
+@media (min-width: 1024px) {
+  .profile-pic {
+    width: 180px;
+    height: 180px;
   }
-  
-  /* Personal Info Styling */
+}
+
+/* Personal Info Styling */
+.personal-info h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333333;
+}
+
+.personal-info .title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #555555;
+}
+
+.personal-info .description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #666666;
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
   .personal-info h3 {
     font-size: 1.8rem;
-    margin: 10px 0;
-    color: #333333;
   }
-  
+
   .personal-info .title {
     font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #555555;
   }
-  
+
   .personal-info .description {
     font-size: 1rem;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 600px;
-    color: #666666;
   }
-  
-  /* About Content Layout */
+}
+
+/* About Content Layout */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
   .about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
   }
-  
-  @media (min-width: 768px) {
-    .about-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 30px;
-    }
-  
-    .profile-pic {
-      margin-bottom: 0;
-    }
-  
-    .personal-info {
-      text-align: left;
-    }
+
+  .personal-info {
+    text-align: left;
   }
-  
+}
